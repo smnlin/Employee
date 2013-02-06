@@ -39,6 +39,34 @@
     return self;
 }
 
+-(id)initWithFirstName:(NSString *)inFirstName
+              lastName:(NSString *)inLastName
+             birthDate:(NSDate *)inBirthDate
+                   ssn:(NSString *)inSSN
+{
+    if (self = [self init])
+    {
+        [self setFirstName:inFirstName];
+        [self setLastName:inLastName];
+        [self setBirthDate:inBirthDate];
+        [self setSsn:inSSN];
+    }
+    return self;
+}
 
+-(NSTimeInterval)age
+{
+    return [birthDate timeIntervalSinceNow];
+}
+
+-(void)giveRaise:(double)percentage
+{
+    salary = salary + (salary * percentage);
+}
+
+-(double)bonus
+{
+    return salary * 0.05;
+}
 
 @end

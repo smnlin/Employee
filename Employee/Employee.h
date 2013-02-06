@@ -28,8 +28,8 @@
 @property (nonatomic) double salary;
 
 -(id)initWithFirstName: (NSString *)inFirstName
-lastName: (NSString *)inLastName
-birthDate: (NSDate *)inBirthDate
+            lastName: (NSString *)inLastName
+             birthDate: (NSDate *)inBirthDate
                    ssn: (NSString *)inSSN;
 -(void)giveRaise:(double)percentage;
 -(double)bonus;
