@@ -18,7 +18,7 @@
         [employee setManager:nil];
     }
     [self setReports:nil];
-    [super dealloc];
+    //[super dealloc];
 }
 
 -(id)init

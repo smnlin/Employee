@@ -22,7 +22,7 @@
 @property (nonatomic, retain) NSString *lastName;
 @property (nonatomic, retain) NSDate *birthDate;
 @property (nonatomic, retain) NSDate *dateOfEmployment;
-@property (nonatomic, assign) Employee *manager;
+@property (nonatomic, retain) Employee *manager;
 @property (nonatomic, retain) NSString *ssn;
 @property (nonatomic, readonly) NSTimeInterval age;
 @property (nonatomic) double salary;

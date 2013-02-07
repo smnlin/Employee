@@ -27,7 +27,7 @@
     [self setSsn:nil];
     [self setManager:nil];
     
-    [super dealloc];
+    //[super dealloc];
 }
 
 -(id)init
