@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		888A59CC16C31B160018686B /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 888A59CB16C31B160018686B /* Manager.m */; };
 		88E36B4016B03D5800EF9F70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E36B3F16B03D5800EF9F70 /* Foundation.framework */; };
 		88E36B4316B03D5800EF9F70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E36B4216B03D5800EF9F70 /* main.m */; };
 		88E36B4716B03D5800EF9F70 /* Employee.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 88E36B4616B03D5800EF9F70 /* Employee.1 */; };
@@ -27,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		888A59CA16C31B160018686B /* Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
+		888A59CB16C31B160018686B /* Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
 		88E36B3B16B03D5800EF9F70 /* Employee */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Employee; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E36B3F16B03D5800EF9F70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		88E36B4216B03D5800EF9F70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -76,6 +79,8 @@
 		88E36B4116B03D5800EF9F70 /* Employee */ = {
 			isa = PBXGroup;
 			children = (
+				888A59CA16C31B160018686B /* Manager.h */,
+				888A59CB16C31B160018686B /* Manager.m */,
 				88E36B4216B03D5800EF9F70 /* main.m */,
 				88E36B4616B03D5800EF9F70 /* Employee.1 */,
 				88E36B4416B03D5800EF9F70 /* Supporting Files */,
@@ -146,6 +151,7 @@
 			files = (
 				88E36B4316B03D5800EF9F70 /* main.m in Sources */,
 				88E36B4F16B03E0700EF9F70 /* Employee.m in Sources */,
+				888A59CC16C31B160018686B /* Manager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +248,7 @@
 				88E36B4C16B03D5800EF9F70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
